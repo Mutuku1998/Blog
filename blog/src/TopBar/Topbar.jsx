@@ -1,6 +1,6 @@
 import React from 'react'
 import './Topbar.css';
-import profile from '../assets/img/mutuku.png'
+import profile from '../assets/img/kavindu.JPG'
 const Topbar = () => {
   return (
     <div className='top'>
