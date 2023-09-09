@@ -1,4 +1,54 @@
 .singlepost{
     flex: 9;
-    
+
 }
+.singlepostimg{
+    height: 300px;
+    width: 1100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singlepost-wrapper{
+    padding: 20px;
+    padding-right: 0;
+}
+.singleposttitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora',serif;
+    font-size: 28px;
+}
+.singlepostedit{
+    float: right;
+    font-size: 18px;
+}
+.singlepostedit i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.singlepostedit i:first-child{
+    color: teal;
+}
+.singlepostedit i:last-child{
+    color: tomato;
+}
+.singlepostinfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+font-family: 'Varela Round',sans-serif;
+
+}
+ .singlepostdesc{
+   color: #666;
+   font-size: 18px; 
+   line-height: 25px;
+ }
+ .singlepostdesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+
+ }

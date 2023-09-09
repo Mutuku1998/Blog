@@ -1,0 +1,49 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5), 
+    rgba(255,255,255,0.5))  ,url('../../assets//img/pexels-george-milton-6953870.jpg');
+      background-size: cover;
+
+}
+.registertitle{
+    font-size: 50px;
+
+}
+.registerform{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column; 
+}
+.registerform label{
+   margin: 10px 0; 
+}
+.registerform input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerbutton{
+    margin-top: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+}
+.loginbutton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+
+}
